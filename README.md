@@ -33,3 +33,17 @@ InputStreamReader/OutputStreamWriter
 
 FileReader/FileWriter
 
+## 
+import java.util.*;
+
+// ArrayList 사용
+ArrayList<String> list = new ArrayList<>();
+list.add("A");      // 요소 추가
+list.add("B");
+System.out.println(list.get(0)); // A 출력
+
+// Vector 사용
+Vector<String> v = new Vector<>();
+v.add("A");
+v.add("B");
+System.out.println(v.get(1)); // B 출력
