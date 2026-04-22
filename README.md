@@ -47,3 +47,11 @@ Vector<String> v = new Vector<>();
 v.add("A");
 v.add("B");
 System.out.println(v.get(1)); // B 출력
+
+// hashmap 사용
+HashMap<String, Integer> map = new HashMap<>();
+
+map.put("apple", 1);   // key-value 저장
+map.put("banana", 2);
+
+System.out.println(map.get("apple")); // 1 출력
