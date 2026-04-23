@@ -38,20 +38,29 @@ import java.util.*;
 
 // ArrayList 사용
 ArrayList<String> list = new ArrayList<>();
+
 list.add("A");      // 요소 추가
+
 list.add("B");
+
 System.out.println(list.get(0)); // A 출력
+
 
 // Vector 사용
 Vector<String> v = new Vector<>();
+
 v.add("A");
+
 v.add("B");
+
 System.out.println(v.get(1)); // B 출력
+
 
 // hashmap 사용
 HashMap<String, Integer> map = new HashMap<>();
 
 map.put("apple", 1);   // key-value 저장
+
 map.put("banana", 2);
 
 System.out.println(map.get("apple")); // 1 출력
